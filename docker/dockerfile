@@ -11,7 +11,7 @@ LABEL purpose="gprMax_Docker"
 # ADD . /work
 
 # Specify the work Directory
-WORKDIR /home
+# WORKDIR /home
 
 # Logistics
 RUN apt update && apt install -y apt-utils
